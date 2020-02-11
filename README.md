@@ -33,5 +33,10 @@ This compilation of notebooks details a machine learning workflow from start to 
 3. Compare **R2** and **Mean Absolute Error (MAE)** scores
 4. Select the best model and hyperparameter combination and save it
 
+## Dataset
+The dataset contains 1883 observations in the county where the REIT operates. Each observation is for the transaction of one property. Each transaction values between $200,000 and $800,000.
+
+The trained model will predict the `tx_price`, which is the transaction price in USD.
+
 ## Credits
 Credit goes to the team at [EliteDataScience](https://elitedatascience.com/machine-learning-masterclass) for providing the supplementary code.
